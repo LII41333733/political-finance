@@ -25,26 +25,28 @@ class Homepage extends React.Component {
     render() {
         return (
             <div>
-                <Nav className="justify-content-end" activeKey="/home">
-                    <Nav.Item>
-                        <Nav.Link href="/home">Home</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                        <Nav.Link eventKey="link-1">Books</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                        <Nav.Link eventKey="link-2">Lesson Plans</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                        <Nav.Link eventKey="link-3">Tools</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                        <Nav.Link eventKey="link-4">Blogs</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                        <Nav.Link eventKey="link-5">IAQs</Nav.Link>
-                    </Nav.Item>
-                </Nav>
+                <Container>
+                    <Nav className="justify-content-end" activeKey="/home">
+                        <Nav.Item>
+                            <Nav.Link href="/home">Home</Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item>
+                            <Nav.Link eventKey="link-1">Books</Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item>
+                            <Nav.Link eventKey="link-2">Lesson Plans</Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item>
+                            <Nav.Link eventKey="link-3">Tools</Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item>
+                            <Nav.Link eventKey="link-4">Blogs</Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item>
+                            <Nav.Link eventKey="link-5">IAQs</Nav.Link>
+                        </Nav.Item>
+                    </Nav>
+                </Container>
                 <Jumbotron fluid className="header">
                     <Container>
                         <Row className="row row0 h-100">

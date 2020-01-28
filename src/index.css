@@ -56,7 +56,6 @@ code {
 .nav {
   height: 60px;
   font-size: 18px;
-  padding-right: 25px;
   font-weight: bold;
 }
 
@@ -149,11 +148,8 @@ hr {
   border: 0;
   border-top: 5px solid !important;
   color: #173040c2;
-}
-
-.hr0 {
-  margin-top: 5px !important;
-  margin-bottom: 5px !important;
+  margin-top: 0.3rem !important;
+  margin-bottom: 0.3rem !important;
 }
 
 .hr1 {
