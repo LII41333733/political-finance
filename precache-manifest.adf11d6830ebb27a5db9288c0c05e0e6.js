@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "624f36cddc168644a86ccee5918bd365",
+    "revision": "c551ed324fd317926e7d2e7f3f789694",
     "url": "/political-finance/index.html"
   },
   {
-    "revision": "80ecca227c01ec01fa7a",
+    "revision": "202ee01685a429e1413f",
     "url": "/political-finance/static/css/2.67123b20.chunk.css"
   },
   {
-    "revision": "c649446bf6a93a5e9fc4",
-    "url": "/political-finance/static/css/main.52d54a3c.chunk.css"
+    "revision": "c019272ef5fce3c7826f",
+    "url": "/political-finance/static/css/main.1e878b28.chunk.css"
   },
   {
-    "revision": "80ecca227c01ec01fa7a",
-    "url": "/political-finance/static/js/2.4dac5e9a.chunk.js"
+    "revision": "202ee01685a429e1413f",
+    "url": "/political-finance/static/js/2.256193d1.chunk.js"
   },
   {
     "revision": "f032203ca460334c00de541c30a6078a",
-    "url": "/political-finance/static/js/2.4dac5e9a.chunk.js.LICENSE"
+    "url": "/political-finance/static/js/2.256193d1.chunk.js.LICENSE"
   },
   {
-    "revision": "c649446bf6a93a5e9fc4",
-    "url": "/political-finance/static/js/main.32cc7c36.chunk.js"
+    "revision": "c019272ef5fce3c7826f",
+    "url": "/political-finance/static/js/main.6bac6f8a.chunk.js"
   },
   {
     "revision": "02f6b12033cdbe72f2d1",
