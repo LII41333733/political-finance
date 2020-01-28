@@ -123,8 +123,8 @@ republican establishment.</p>
                         </Col>
                     </Row>
                 </Container>
-                <hr />
-                <hr style={{ marginBottom: "50px" }} />
+                <hr className="hr0" />
+                <hr className="hr1" />
                 <Container>
                     <h2 className="author">About the Author</h2>
                     <Row className="row row3 h-100">
