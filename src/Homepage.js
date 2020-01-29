@@ -51,7 +51,7 @@ class Homepage extends React.Component {
                     <Container>
                         <Row className="row row0 h-100">
                             <Col lg={5}>
-                                <img className="cover" src="cover.png"></img>
+                                <img className="cover" src="front.jpg"></img>
                             </Col>
                             <Col lg={7} className="my-auto">
                                 <h1>More of the mosaic...</h1>
@@ -85,7 +85,7 @@ United States in its current form considering the residual cultural
 and economic values and systems that perdure.</p>
                         </Col>
                         <Col lg={5}>
-                            <img className="back" src="back.png"></img>
+                            <img className="back" src="back.jpg"></img>
                         </Col>
                     </Row>
                 </Container>

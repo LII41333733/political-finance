@@ -174,3 +174,7 @@ hr {
 .row2 {
   margin-bottom: 50px;
 }
+
+img {
+  border-radius: 3px;
+}
