@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/political-finance/static/css/main.1e878b28.chunk.css",
-    "main.js": "/political-finance/static/js/main.6bac6f8a.chunk.js",
-    "main.js.map": "/political-finance/static/js/main.6bac6f8a.chunk.js.map",
+    "main.css": "/political-finance/static/css/main.966c3fc6.chunk.css",
+    "main.js": "/political-finance/static/js/main.5e6a12c1.chunk.js",
+    "main.js.map": "/political-finance/static/js/main.5e6a12c1.chunk.js.map",
     "runtime-main.js": "/political-finance/static/js/runtime-main.29662eff.js",
     "runtime-main.js.map": "/political-finance/static/js/runtime-main.29662eff.js.map",
     "static/css/2.67123b20.chunk.css": "/political-finance/static/css/2.67123b20.chunk.css",
     "static/js/2.256193d1.chunk.js": "/political-finance/static/js/2.256193d1.chunk.js",
     "static/js/2.256193d1.chunk.js.map": "/political-finance/static/js/2.256193d1.chunk.js.map",
     "index.html": "/political-finance/index.html",
-    "precache-manifest.adf11d6830ebb27a5db9288c0c05e0e6.js": "/political-finance/precache-manifest.adf11d6830ebb27a5db9288c0c05e0e6.js",
+    "precache-manifest.bde4bf5cb9c31c3f0b66f4edc0e246d7.js": "/political-finance/precache-manifest.bde4bf5cb9c31c3f0b66f4edc0e246d7.js",
     "service-worker.js": "/political-finance/service-worker.js",
     "static/css/2.67123b20.chunk.css.map": "/political-finance/static/css/2.67123b20.chunk.css.map",
-    "static/css/main.1e878b28.chunk.css.map": "/political-finance/static/css/main.1e878b28.chunk.css.map",
+    "static/css/main.966c3fc6.chunk.css.map": "/political-finance/static/css/main.966c3fc6.chunk.css.map",
     "static/js/2.256193d1.chunk.js.LICENSE": "/political-finance/static/js/2.256193d1.chunk.js.LICENSE",
     "static/media/logo.svg": "/political-finance/static/media/logo.5d5d9eef.svg"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.29662eff.js",
     "static/css/2.67123b20.chunk.css",
     "static/js/2.256193d1.chunk.js",
-    "static/css/main.1e878b28.chunk.css",
-    "static/js/main.6bac6f8a.chunk.js"
+    "static/css/main.966c3fc6.chunk.css",
+    "static/js/main.5e6a12c1.chunk.js"
   ]
 }
