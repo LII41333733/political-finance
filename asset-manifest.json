@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/political-finance/static/css/main.48609837.chunk.css",
-    "main.js": "/political-finance/static/js/main.754417bf.chunk.js",
-    "main.js.map": "/political-finance/static/js/main.754417bf.chunk.js.map",
+    "main.js": "/political-finance/static/js/main.24279e76.chunk.js",
+    "main.js.map": "/political-finance/static/js/main.24279e76.chunk.js.map",
     "runtime-main.js": "/political-finance/static/js/runtime-main.29662eff.js",
     "runtime-main.js.map": "/political-finance/static/js/runtime-main.29662eff.js.map",
     "static/css/2.67123b20.chunk.css": "/political-finance/static/css/2.67123b20.chunk.css",
     "static/js/2.5d49b22a.chunk.js": "/political-finance/static/js/2.5d49b22a.chunk.js",
     "static/js/2.5d49b22a.chunk.js.map": "/political-finance/static/js/2.5d49b22a.chunk.js.map",
     "index.html": "/political-finance/index.html",
-    "precache-manifest.f10a354fdebaef87354519ca815bdf98.js": "/political-finance/precache-manifest.f10a354fdebaef87354519ca815bdf98.js",
+    "precache-manifest.a90e3b77fa227f7c18f94c782de8cd3c.js": "/political-finance/precache-manifest.a90e3b77fa227f7c18f94c782de8cd3c.js",
     "service-worker.js": "/political-finance/service-worker.js",
     "static/css/2.67123b20.chunk.css.map": "/political-finance/static/css/2.67123b20.chunk.css.map",
     "static/css/main.48609837.chunk.css.map": "/political-finance/static/css/main.48609837.chunk.css.map",
@@ -22,6 +22,6 @@
     "static/css/2.67123b20.chunk.css",
     "static/js/2.5d49b22a.chunk.js",
     "static/css/main.48609837.chunk.css",
-    "static/js/main.754417bf.chunk.js"
+    "static/js/main.24279e76.chunk.js"
   ]
 }
