@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "451a74e59dd15acb5f6b2ea57fd27101",
+    "revision": "34cccc6888ec57946c38e958c529117d",
     "url": "/political-finance/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/political-finance/static/css/2.67123b20.chunk.css"
   },
   {
-    "revision": "20ff9766f3824fd85cac",
+    "revision": "73359a40442b29de9ccf",
     "url": "/political-finance/static/css/main.3028b585.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/political-finance/static/js/2.5d49b22a.chunk.js.LICENSE"
   },
   {
-    "revision": "20ff9766f3824fd85cac",
-    "url": "/political-finance/static/js/main.24279e76.chunk.js"
+    "revision": "73359a40442b29de9ccf",
+    "url": "/political-finance/static/js/main.e0b027ea.chunk.js"
   },
   {
     "revision": "02f6b12033cdbe72f2d1",
