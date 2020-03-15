@@ -1,30 +1,107 @@
+/* #173041 */
+
+@font-face {
+  font-family: 'Schadow';
+  font-stretch: condensed;
+  src: url(../src/Schadow/SchadowBlackCondensed.ttf);
+}
+
 body {
+  background: #e8e8c9a3 !important;
+}
+
+.galleryCard {
+  max-width: 200px;
+  display: inline-block !important;
+  max-height: 130px;
+  overflow: hidden;
+}
+
+.galleryCard p {
+  line-height: 16px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.card-img {
+  width: 100%;
+  height: 100%;
+  background-color: #173041;
+  /* fallback color */
+  background-position: center;
+  background-size: cover;
+  transition: all 0.3s ease-in-out;
+  opacity: 1;
+}
+
+.card:hover .card-img, .card:focus .card-img {
+  transform: scale(1.02);
+  opacity: 0.5;
+}
+
+.card-img-overlay>.h5, .card-img-overlay>p {
+  visibility: hidden;
+}
+
+.card-img-overlay:hover .h5, .card-img-overlay:hover p {
+  visibility: visible;
+  align-self: flex-end;
+}
+
+.card-img-overlay {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.container, .row {
+  height: 100%;
+}
+
+.container-body {
+  min-height: 400px;
+}
+
+.col {
+  margin: auto 0;
+}
+
+img {
+  cursor: pointer;
+}
+
+p {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-h2, p, .nav-link {
-  font-family: 'Spectral', serif;
-}
-
-.container {
-  max-width: 1170px !important;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
-}
-
-.cover {
-  height: 550px;
-  box-shadow: 0 19px 38px rgb(232, 232, 201), 0 15px 12px rgb(232, 232, 201);
+.textBlock {
+  line-height: 35px;
+  font-size: 18px;
   text-align: left;
 }
 
+p, table, body {
+  font-family: 'Spectral', serif !important;
+}
+
+.nav-link {
+  font-family: "Schadow";
+}
+
+.cover {
+  height: 450px;
+  position: relative;
+  top: -100px;
+  box-shadow: 14px 14px 12px #000000;
+}
+
+.cover-books {
+  margin: 20px;
+  position: relative;
+  box-shadow: 14px 14px 12px #000000;
+}
+
 .back {
-  height: 550px;
+  height: 470px;
   -moz-box-shadow: 14px 14px 12px #000000;
   -webkit-box-shadow: 14px 14px 12px #000000;
   box-shadow: 14px 14px 12px #000000;
@@ -32,58 +109,91 @@ code {
 
 .jumbotron {
   background-color: #173041 !important;
-  color: #e8e8c9;
-  margin-bottom: 4rem !important;
-  font-family: 'Mrs Saint Delafield', cursive;
-  /* 
-  
-  font-family: 'Pinyon Script', cursive;
-  font-family: 'Tangerine', cursive;
-  */
+  color: white;
+  margin-bottom: 5rem !important;
+  font-family: "Schadow";
+  height: 375px;
+  letter-spacing: 2px;
+}
+
+.jumbo-homepage {
+  margin-bottom: 120px !important;
 }
 
 .jumbotron h1 {
-  font-size: 109px;
-  text-align: left;
-  margin-left: 25px;
+  font-size: 60px;
+  margin-left: 20px;
 }
 
 .jumbotron h2 {
-  font-size: 55px;
-  text-align: right;
+  font-size: 50px;
+}
+
+.jumbotron_secondary {
+  padding: 3rem 2rem !important;
+  height: 225px;
+}
+
+.jumbotron_tertiary {
+  padding: 3rem 2rem !important;
+  height: 120px;
+  margin-bottom: 3rem !important;
+}
+
+.jumbotron_tertiary h2 {
+  top: -16px;
+  position: relative;
 }
 
 .nav {
-  height: 60px;
-  font-size: 18px;
-  font-weight: bold;
+  font-size: 25px;
+  letter-spacing: 1px;
+  font-weight: 100;
+  margin-right: 5px;
+  height: 70px;
+}
+
+.nav-home {
+  margin-bottom: 50px;
 }
 
 .nav-link {
   color: #173040c2;
 }
 
-.nav-link:hover, .footer, .footer a {
-  color: #e8e8c9 !important;
+.navPill {
+  display: flex;
+  border: 2px solid #173041;
+  background: white;
+  border-radius: 5px;
+  height: 50px;
+  margin-top: 10px;
+}
+
+.footer, .footer a {
+  color: white !important;
+}
+
+.nav-link:hover {
+  color: #173041 !important;
+}
+
+.table {
+  font-size: 1.2rem;
 }
 
 .footer a {
   text-decoration: underline;
 }
 
-.nav-item a {
-  line-height: 45px;
+.footer h5 {
+  font-weight: 100 !important;
 }
 
 .big-W {
   font-size: 50px;
   margin-right: -5px;
   line-height: 28px;
-}
-
-p {
-  line-height: 30px;
-  text-align: left;
 }
 
 .img0 {
@@ -110,11 +220,13 @@ p {
 }
 
 .footer {
-  height: 400px;
+  height: 225px;
   margin: 55px 0 0 0 !important;
   font-family: 'Spectral', serif;
   text-align: left;
-  padding: 0 300px !important;
+  padding: 0 10% !important;
+  position: absolute;
+  width: 100%;
 }
 
 .footer h4 {
@@ -142,11 +254,13 @@ input {
   position: absolute;
   font-size: 40px !important;
   cursor: pointer;
+  color: #f0f0dc;
 }
 
 hr {
   border: 0;
-  border-top: 5px solid !important;
+  border-top: 3px solid !important;
+  border-radius: 10px;
   color: #173040c2;
   margin-top: 0.3rem !important;
   margin-bottom: 0.3rem !important;
@@ -168,13 +282,185 @@ hr {
   height: 400px;
   width: auto;
   border-radius: 5px;
-  ;
-}
-
-.row2 {
-  margin-bottom: 50px;
 }
 
 img {
   border-radius: 3px;
+}
+
+.lessonButton {
+  min-width: 130px;
+  line-height: 2.2 !important;
+}
+
+/* Typography */
+
+h3 {
+  color: #565656 !important;
+  font-size: 20px !important;
+}
+
+.caption {
+  font-size: 20px;
+}
+
+/********************************************************** Utility Classes */
+
+.buyButton {
+  background-color: #173041 !important;
+  border: none !important;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.card-title-wrapper {
+  height: 60px;
+  display: flex;
+}
+
+.textRow {
+  padding: 0 10%;
+}
+
+.noMargin {
+  margin: 0 !important;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.textLeft {
+  text-align: left;
+}
+
+.textRight {
+  text-align: right;
+}
+
+.justifyCenter {
+  justify-content: center;
+}
+
+.shortDownSpacer {
+  margin-bottom: 50px;
+}
+
+.bloomsWheel {
+  width: 650px;
+  height: 650px;
+  -webkit-animation: spin 2s linear infinite;
+  -moz-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+.bloomsWheelStopped {
+  height: auto;
+  max-width: 650px;
+}
+
+.cImage {
+  max-height: 300px;
+  width: auto;
+  margin: 0 auto;
+}
+
+.carousel {
+  margin-top: 20px;
+}
+
+.carousel-inner {
+  background: #173041 !important;
+  border-radius: 5px;
+}
+
+/****************************************************** BOOKS */
+
+.fa-plus-circle {
+  font-size: 45px;
+  color: #173041;
+}
+
+.fa-plus-circle::before {
+  cursor: pointer;
+}
+
+.booksContainer h2, .booksContainer h3, .booksContainer h5 {
+  font-family: "Schadow" !important;
+  letter-spacing: 1px;
+}
+
+.header-sub {
+  color: #173041;
+}
+
+.header-sub2 {
+  color: #173041;
+  font-size: 25px;
+  margin-top: -15px;
+}
+
+.header-main {
+  letter-spacing: 1;
+  color: #eb3636;
+}
+
+/****************************************************** LESSON PLANS */
+
+.card-header {
+  background: #173041 !important;
+  color: white !important;
+}
+
+.lessonImage {
+  height: 250px;
+  border: 2px solid #173041;
+  max-width: 520px;
+}
+
+.lessonCard {
+  min-width: 290px !important;
+  max-width: 200px !important;
+  height: 250px;
+  border: 1px solid #173041;
+}
+
+.lessonCard .card-title {
+  margin: auto 0;
+}
+
+/****************************************************** TOOLS */
+
+.timeline {
+  border: 3px solid #173041;
+}
+
+.toolCard {
+  min-width: 180px !important;
+  max-width: 280px !important;
+  border: 1px solid #173041;
+  padding: 0 !important;
+}
+
+/****************************************************** Animations */
+
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
 }
