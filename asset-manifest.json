@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/political-finance/static/css/main.04060a24.chunk.css",
-    "main.js": "/political-finance/static/js/main.7824f699.chunk.js",
-    "main.js.map": "/political-finance/static/js/main.7824f699.chunk.js.map",
+    "main.css": "/political-finance/static/css/main.a6d8fdbe.chunk.css",
+    "main.js": "/political-finance/static/js/main.d540b367.chunk.js",
+    "main.js.map": "/political-finance/static/js/main.d540b367.chunk.js.map",
     "runtime-main.js": "/political-finance/static/js/runtime-main.29662eff.js",
     "runtime-main.js.map": "/political-finance/static/js/runtime-main.29662eff.js.map",
     "static/css/2.67123b20.chunk.css": "/political-finance/static/css/2.67123b20.chunk.css",
-    "static/js/2.21b84820.chunk.js": "/political-finance/static/js/2.21b84820.chunk.js",
-    "static/js/2.21b84820.chunk.js.map": "/political-finance/static/js/2.21b84820.chunk.js.map",
+    "static/js/2.93ac30da.chunk.js": "/political-finance/static/js/2.93ac30da.chunk.js",
+    "static/js/2.93ac30da.chunk.js.map": "/political-finance/static/js/2.93ac30da.chunk.js.map",
     "index.html": "/political-finance/index.html",
-    "precache-manifest.b2c8ee3267a2059ae795e9d15be4ba3b.js": "/political-finance/precache-manifest.b2c8ee3267a2059ae795e9d15be4ba3b.js",
+    "precache-manifest.843efa8c29878adee12ee6accc11d20d.js": "/political-finance/precache-manifest.843efa8c29878adee12ee6accc11d20d.js",
     "service-worker.js": "/political-finance/service-worker.js",
     "static/css/2.67123b20.chunk.css.map": "/political-finance/static/css/2.67123b20.chunk.css.map",
-    "static/css/main.04060a24.chunk.css.map": "/political-finance/static/css/main.04060a24.chunk.css.map",
-    "static/js/2.21b84820.chunk.js.LICENSE": "/political-finance/static/js/2.21b84820.chunk.js.LICENSE",
+    "static/css/main.a6d8fdbe.chunk.css.map": "/political-finance/static/css/main.a6d8fdbe.chunk.css.map",
+    "static/js/2.93ac30da.chunk.js.LICENSE": "/political-finance/static/js/2.93ac30da.chunk.js.LICENSE",
     "static/media/index.css": "/political-finance/static/media/SchadowBlackCondensed.55bb96d3.ttf",
     "static/media/logo.svg": "/political-finance/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.29662eff.js",
     "static/css/2.67123b20.chunk.css",
-    "static/js/2.21b84820.chunk.js",
-    "static/css/main.04060a24.chunk.css",
-    "static/js/main.7824f699.chunk.js"
+    "static/js/2.93ac30da.chunk.js",
+    "static/css/main.a6d8fdbe.chunk.css",
+    "static/js/main.d540b367.chunk.js"
   ]
 }
