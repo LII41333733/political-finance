@@ -1,27 +1,27 @@
 {
   "files": {
     "main.css": "/political-finance/static/css/main.5bbaaac9.chunk.css",
-    "main.js": "/political-finance/static/js/main.80c631d6.chunk.js",
-    "main.js.map": "/political-finance/static/js/main.80c631d6.chunk.js.map",
+    "main.js": "/political-finance/static/js/main.76383d68.chunk.js",
+    "main.js.map": "/political-finance/static/js/main.76383d68.chunk.js.map",
     "runtime-main.js": "/political-finance/static/js/runtime-main.29662eff.js",
     "runtime-main.js.map": "/political-finance/static/js/runtime-main.29662eff.js.map",
     "static/css/2.67123b20.chunk.css": "/political-finance/static/css/2.67123b20.chunk.css",
-    "static/js/2.c54f7c20.chunk.js": "/political-finance/static/js/2.c54f7c20.chunk.js",
-    "static/js/2.c54f7c20.chunk.js.map": "/political-finance/static/js/2.c54f7c20.chunk.js.map",
+    "static/js/2.21fe1a07.chunk.js": "/political-finance/static/js/2.21fe1a07.chunk.js",
+    "static/js/2.21fe1a07.chunk.js.map": "/political-finance/static/js/2.21fe1a07.chunk.js.map",
     "index.html": "/political-finance/index.html",
-    "precache-manifest.3de183742bbcf981a15dfb6d1c2d817a.js": "/political-finance/precache-manifest.3de183742bbcf981a15dfb6d1c2d817a.js",
+    "precache-manifest.c10d45510e998ccf6e7a5e4d49896687.js": "/political-finance/precache-manifest.c10d45510e998ccf6e7a5e4d49896687.js",
     "service-worker.js": "/political-finance/service-worker.js",
     "static/css/2.67123b20.chunk.css.map": "/political-finance/static/css/2.67123b20.chunk.css.map",
     "static/css/main.5bbaaac9.chunk.css.map": "/political-finance/static/css/main.5bbaaac9.chunk.css.map",
-    "static/js/2.c54f7c20.chunk.js.LICENSE": "/political-finance/static/js/2.c54f7c20.chunk.js.LICENSE",
+    "static/js/2.21fe1a07.chunk.js.LICENSE": "/political-finance/static/js/2.21fe1a07.chunk.js.LICENSE",
     "static/media/index.css": "/political-finance/static/media/SchadowBlackCondensed.55bb96d3.ttf",
     "static/media/logo.svg": "/political-finance/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.29662eff.js",
     "static/css/2.67123b20.chunk.css",
-    "static/js/2.c54f7c20.chunk.js",
+    "static/js/2.21fe1a07.chunk.js",
     "static/css/main.5bbaaac9.chunk.css",
-    "static/js/main.80c631d6.chunk.js"
+    "static/js/main.76383d68.chunk.js"
   ]
 }
